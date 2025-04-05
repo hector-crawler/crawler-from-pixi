@@ -1,0 +1,36 @@
+[0.000000] (-) TimerEvent: {}
+[0.000876] (my_package) JobQueued: {'identifier': 'my_package', 'dependencies': OrderedDict()}
+[0.001018] (my_package) JobStarted: {'identifier': 'my_package'}
+[0.099676] (-) TimerEvent: {}
+[0.200027] (-) TimerEvent: {}
+[0.300320] (-) TimerEvent: {}
+[0.400586] (-) TimerEvent: {}
+[0.500999] (-) TimerEvent: {}
+[0.601327] (-) TimerEvent: {}
+[0.701530] (-) TimerEvent: {}
+[0.801780] (-) TimerEvent: {}
+[0.831267] (my_package) Command: {'cmd': ['/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/bin/python3.11', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build', '--no-deps', 'symlink_data'], 'cwd': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package', 'env': {'SHELL': '/usr/bin/fish', 'ROS_VERSION': '2', 'COLORTERM': 'truecolor', 'XDG_MENU_PREFIX': 'gnome-', 'ROS_PYTHON_VERSION': '3', 'PTYXIS_PROFILE': 'f2cc6170ed99c2350499dd8267b37ff1', 'HOSTNAME': 'toolbx', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'PIXI_PROMPT': '(my_ros2_project)', 'ROS_OS_OVERRIDE': 'conda:linux', 'DESKTOP_SESSION': 'gnome', 'XML_CATALOG_FILES': 'file:///var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/etc/xml/catalog file:///etc/xml/catalog', 'EDITOR': '/usr/bin/nano', 'PWD': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package', 'GSETTINGS_SCHEMA_DIR': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/share/glib-2.0/schemas', 'XDG_SESSION_DESKTOP': 'gnome', 'XDG_SESSION_TYPE': 'wayland', 'CONDA_PREFIX': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default', 'TOOLBOX_PATH': '/usr/bin/toolbox', 'GSETTINGS_SCHEMA_DIR_CONDA_BACKUP': '', 'PIXI_PROJECT_MANIFEST': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/pixi.toml', 'PIXI_PROJECT_NAME': 'my_ros2_project', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.LOPQ32', 'container': 'oci', 'HOME': '/var/home/gregorni', 'LANG': 'en_US.UTF-8', 'ROS_ETC_DIR': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/etc/ros', 'XDG_CURRENT_DESKTOP': 'GNOME', 'VTE_VERSION': '7802', 'WAYLAND_DISPLAY': 'wayland-0', 'PIXI_ENVIRONMENT_NAME': 'default', 'AMENT_PREFIX_PATH': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default', 'COLCON_PREFIX_PATH': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/install', 'PIXI_IN_SHELL': '1', 'INIT_CWD': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project', 'PIXI_EXE': '/var/home/linuxbrew/.linuxbrew/Cellar/pixi/0.43.0/bin/pixi', 'PYTHONPATH': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/prefix_override:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/lib/python311/site-packages:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/lib/python3.11/site-packages', 'COLCON': '1', 'TERM': 'xterm-256color', 'USER': 'gregorni', 'DISPLAY': ':0', 'SHLVL': '1', 'GIT_EDITOR': 'hx', 'PIXI_PROJECT_VERSION': '0.1.0', 'PROJ_DATA': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/share/proj', 'PIXI_PROJECT_ROOT': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project', 'LD_LIBRARY_PATH': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/opt/rviz_ogre_vendor/lib', 'XDG_RUNTIME_DIR': '/run/user/1000', 'ROS_LOCALHOST_ONLY': '0', 'CONDA_DEFAULT_ENV': 'my_ros2_project', 'PIXI_ENVIRONMENT_PLATFORMS': 'linux-64', 'DEBUGINFOD_URLS': 'https://debuginfod.fedoraproject.org/', 'DEBUGINFOD_IMA_CERT_PATH': '/etc/keys/ima', 'XDG_DATA_DIRS': '/var/home/gregorni/.local/share/flatpak/exports/share:/var/lib/flatpak/exports/share:/usr/local/share/:/usr/share/', 'PATH': '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/bin:/var/home/gregorni/.cargo/bin:/home/gregorni/.pixi/bin/:/home/linuxbrew/.linuxbrew/bin:/var/home/linuxbrew/.linuxbrew/lib/ruby/gems/3.3.0/bin:/var/home/linuxbrew/.linuxbrew/bin:/var/home/gregorni/go/bin/:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'FZF_DEFAULT_OPTS': '--color=bg+:#313244,bg:#1e1e2e,spinner:#f5e0dc,hl:#f38ba8 --color=fg:#cdd6f4,header:#f38ba8,info:#cba6f7,pointer:#f5e0dc --color=marker:#f5e0dc,fg+:#cdd6f4,prompt:#cba6f7,hl+:#f38ba8', 'ZELLIJ_AUTO_EXIT': 'true', 'PTYXIS_VERSION': '47.10', 'ROS_DISTRO': 'humble', 'PROJ_NETWORK': 'ON', '_': '/usr/bin/env'}, 'shell': False}
+[0.901921] (-) TimerEvent: {}
+[1.002178] (-) TimerEvent: {}
+[1.102629] (-) TimerEvent: {}
+[1.136824] (my_package) StdoutLine: {'line': b'running develop\n'}
+[1.202779] (-) TimerEvent: {}
+[1.302990] (-) TimerEvent: {}
+[1.394603] (my_package) StdoutLine: {'line': b'running egg_info\n'}
+[1.394912] (my_package) StdoutLine: {'line': b'writing my_package.egg-info/PKG-INFO\n'}
+[1.395147] (my_package) StdoutLine: {'line': b'writing dependency_links to my_package.egg-info/dependency_links.txt\n'}
+[1.395325] (my_package) StdoutLine: {'line': b'writing entry points to my_package.egg-info/entry_points.txt\n'}
+[1.395540] (my_package) StdoutLine: {'line': b'writing requirements to my_package.egg-info/requires.txt\n'}
+[1.395677] (my_package) StdoutLine: {'line': b'writing top-level names to my_package.egg-info/top_level.txt\n'}
+[1.403137] (-) TimerEvent: {}
+[1.406304] (my_package) StdoutLine: {'line': b"reading manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[1.407094] (my_package) StdoutLine: {'line': b"writing manifest file 'my_package.egg-info/SOURCES.txt'\n"}
+[1.408462] (my_package) StdoutLine: {'line': b'running build_ext\n'}
+[1.408581] (my_package) StdoutLine: {'line': b'Creating /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my-package.egg-link (link to .)\n'}
+[1.409595] (my_package) StdoutLine: {'line': b'Installing listening_node = my_package.listening_node:maintalking_node script to /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/my_package\n'}
+[1.409912] (my_package) StdoutLine: {'line': b'\n'}
+[1.410007] (my_package) StdoutLine: {'line': b'Installed /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package\n'}
+[1.410082] (my_package) StdoutLine: {'line': b'running symlink_data\n'}
+[1.455488] (my_package) CommandEnded: {'returncode': 0}
+[1.468850] (my_package) JobEnded: {'identifier': 'my_package', 'rc': 0}
+[1.469942] (-) EventReactorShutdown: {}

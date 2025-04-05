@@ -1,0 +1,41 @@
+[0.834s] Invoking command in '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package': PIXI_PROMPT=(my_ros2_project) PYTHONPATH=/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/prefix_override:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/bin/python3.11 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build
+[1.138s] running develop
+[1.400s] Removing /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my-package.egg-link (link to .)
+[1.458s] Invoked command in '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package' returned '0': PIXI_PROMPT=(my_ros2_project) PYTHONPATH=/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/prefix_override:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/bin/python3.11 -W ignore:setup.py install is deprecated setup.py develop --uninstall --editable --build-directory /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build
+[1.460s] Invoking command in '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/src/my_package': PIXI_PROMPT=(my_ros2_project) PYTHONPATH=/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/prefix_override:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build install --record /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/install.log --single-version-externally-managed install_data --force
+[1.724s] running egg_info
+[1.724s] writing ../../build/my_package/my_package.egg-info/PKG-INFO
+[1.725s] writing dependency_links to ../../build/my_package/my_package.egg-info/dependency_links.txt
+[1.725s] writing entry points to ../../build/my_package/my_package.egg-info/entry_points.txt
+[1.725s] writing requirements to ../../build/my_package/my_package.egg-info/requires.txt
+[1.725s] writing top-level names to ../../build/my_package/my_package.egg-info/top_level.txt
+[1.738s] reading manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.739s] writing manifest file '../../build/my_package/my_package.egg-info/SOURCES.txt'
+[1.739s] running build
+[1.740s] running build_py
+[1.740s] copying my_package/device_consts.py -> /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build/lib/my_package
+[1.740s] copying my_package/talking_node.py -> /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build/lib/my_package
+[1.740s] copying my_package/listening_node.py -> /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build/lib/my_package
+[1.740s] running install
+[1.741s] running install_lib
+[1.741s] creating /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package
+[1.741s] copying /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build/lib/my_package/__init__.py -> /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package
+[1.741s] copying /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build/lib/my_package/my_node.py -> /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package
+[1.742s] copying /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build/lib/my_package/device_consts.py -> /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package
+[1.742s] copying /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build/lib/my_package/talking_node.py -> /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package
+[1.742s] copying /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build/lib/my_package/listening_node.py -> /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package
+[1.743s] byte-compiling /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package/__init__.py to __init__.cpython-311.pyc
+[1.743s] byte-compiling /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package/my_node.py to my_node.cpython-311.pyc
+[1.743s] byte-compiling /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package/device_consts.py to device_consts.cpython-311.pyc
+[1.744s] byte-compiling /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package/talking_node.py to talking_node.cpython-311.pyc
+[1.744s] byte-compiling /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package/listening_node.py to listening_node.cpython-311.pyc
+[1.745s] running install_data
+[1.745s] copying resource/my_package -> /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/share/ament_index/resource_index/packages
+[1.745s] copying package.xml -> /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/share/my_package
+[1.745s] running install_egg_info
+[1.748s] Copying ../../build/my_package/my_package.egg-info to /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages/my_package-0.0.0-py3.11.egg-info
+[1.750s] running install_scripts
+[1.773s] Installing listening_node script to /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/my_package
+[1.773s] Installing talking_node script to /var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/my_package
+[1.773s] writing list of installed files to '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/install.log'
+[1.812s] Invoked command in '/var/home/gregorni/Projects/hector-crawler/my_ros2_project/src/my_package' returned '0': PIXI_PROMPT=(my_ros2_project) PYTHONPATH=/var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/prefix_override:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/lib/python3.11/site-packages/colcon_core/task/python/colcon_distutils_commands:/var/home/gregorni/Projects/hector-crawler/my_ros2_project/install/my_package/lib/python3.11/site-packages:${PYTHONPATH} _=/usr/bin/env /var/home/gregorni/Projects/hector-crawler/my_ros2_project/.pixi/envs/default/bin/python3.11 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/my_package build --build-base /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/build install --record /var/home/gregorni/Projects/hector-crawler/my_ros2_project/build/my_package/install.log --single-version-externally-managed install_data --force
