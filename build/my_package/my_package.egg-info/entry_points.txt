@@ -1,4 +1,0 @@
-[console_scripts]
-listening_node = my_package.listening_node:main
-talking_node = my_package.talking_node:main
-
