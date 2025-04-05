@@ -24,3 +24,4 @@ scripts = ["install/setup.sh"]
 [pypi-dependencies]
 luma-core = ">=2.4.2, <3"
 luma-oled = ">=3.14.0, <4"
+rpi-gpio = ">=0.7.1, <0.8"
